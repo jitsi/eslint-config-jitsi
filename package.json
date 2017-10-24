@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-jitsi",
+  "version": "0.0.1",
+  "description": "eslint rules for jitsi projects",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jitsi/eslint-config-jitsi"
+  },
+  "keywords": [
+    "jitsi",
+    "lint",
+    "eslint"
+  ],
+  "author": "",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "pre-commit": [
+  ],
+  "main": "./index.js",
+  "license": "Apache-2.0"
+}
