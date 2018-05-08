@@ -16,7 +16,8 @@
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-flowtype": "latest",
-    "eslint-plugin-import": "latest"
+    "eslint-plugin-import": "latest",
+    "babel-eslint": "latest"
   },
   "dependencies": {
   },
