@@ -14,7 +14,10 @@
   "author": "",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-flowtype": "latest",
+    "eslint-plugin-import": "latest",
+    "babel-eslint": "latest"
   },
   "dependencies": {
   },
