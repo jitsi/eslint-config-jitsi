@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jitsi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "eslint rules for jitsi projects",
   "repository": {
     "type": "git",
