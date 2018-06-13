@@ -183,8 +183,9 @@ module.exports = {
             4,
             {
                 'CallExpression': {
-                    arguments: 'off'
+                    arguments: 1
                 },
+                'flatTernaryExpressions': false,
                 'FunctionDeclaration': {
                     body: 1,
                     parameters: 2
@@ -192,7 +193,7 @@ module.exports = {
                 'FunctionExpression': {
                     parameters: 2
                 },
-                'MemberExpression': 'off',
+                'MemberExpression': 1,
                 'SwitchCase': 0
             }
         ],
