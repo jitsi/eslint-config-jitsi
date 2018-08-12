@@ -186,6 +186,7 @@ module.exports = {
                     arguments: 'off'
                 },
                 'FunctionDeclaration': {
+                    body: 1,
                     parameters: 2
                 },
                 'FunctionExpression': {
