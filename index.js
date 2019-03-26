@@ -209,7 +209,7 @@ module.exports = {
             }
         ],
         'max-depth': 2,
-        'max-len': [ 'error', 80 ],
+        'max-len': [ 'error', 120 ],
         'max-lines': 0,
         'max-nested-callbacks': 2,
         'max-params': [ 'error', 4 ],
