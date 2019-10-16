@@ -218,8 +218,13 @@ module.exports = {
         'multiline-ternary': 0,
         'new-cap': 2,
         'new-parens': 2,
-        'newline-after-var': 2,
-        'newline-before-return': 2,
+        'padding-line-between-statements': [
+            "error",
+            { blankLine: "always", prev: ["const", "let", "var"], next: "*"},
+            { blankLine: "any",    prev: ["const", "let", "var"], next: ["const", "let", "var"]},
+            { blankLine: "always", prev: "*", next: "return" },
+
+        ],
         'newline-per-chained-call': 2,
         'no-array-constructor': 2,
         'no-bitwise': 2,
