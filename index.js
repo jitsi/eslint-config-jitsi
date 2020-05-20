@@ -319,6 +319,13 @@ module.exports = {
         'sort-imports': 0,
         'template-curly-spacing': 2,
         'yield-star-spacing': 2,
-        'import/no-duplicates': 2
+        'import/no-duplicates': 2,
+        'import/order': [ 'error', {
+            'alphabetize': {
+                'order': 'asc'
+            },
+            'groups': [ [ 'builtin', 'external' ], 'parent', 'sibling', 'index' ],
+            'newlines-between': 'always'
+        } ]
     }
 };
