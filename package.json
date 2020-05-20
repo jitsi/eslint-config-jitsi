@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jitsi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint rules for jitsi projects",
   "repository": {
     "type": "git",
@@ -16,14 +16,10 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
-  "scripts": {
-  },
-  "pre-commit": [
-  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "pre-commit": [],
   "main": "./index.js",
   "license": "Apache-2.0"
 }
