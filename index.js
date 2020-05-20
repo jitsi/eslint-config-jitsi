@@ -268,6 +268,9 @@ module.exports = {
         ],
         'semi': [ 'error', 'always' ],
         'semi-spacing': 2,
+        'sort-keys': ['error', 'asc', {
+            'natural': true
+        }],
         'sort-vars': 2,
         'space-before-blocks': 2,
         'space-before-function-paren': ['error', {
