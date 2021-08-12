@@ -11,7 +11,7 @@ npm install --save-dev jitsi/eslint-config-jitsi
 ### Installing peerDependencies
 
 ```bash
-npm install --save-dev babel-eslint eslint-plugin-flowtype eslint-plugin-import
+npm install --save-dev babel-eslint eslint-plugin-import
 ```
 
 ## Usage
@@ -52,6 +52,21 @@ npm install --save-dev eslint-plugin-react
   'extends': [
     'eslint-config-jitsi',
     'eslint-config-jitsi/react'
+  ]
+}
+```
+
+If you are using `flow`:
+
+```bash
+ npm install --save-dev eslint-plugin-flowtype 
+```
+
+```
+{
+  'extends': [
+    'eslint-config-jitsi',
+    'eslint-config-jitsi/flow'
   ]
 }
 ```
