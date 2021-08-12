@@ -6,8 +6,7 @@ module.exports = {
         'jasmine': true
     },
     'extends': [
-        'eslint:recommended',
-        'plugin:flowtype/recommended'
+        'eslint:recommended'
     ],
     'globals': {
         // The globals that (1) are accessed but not defined within many of our
@@ -24,11 +23,6 @@ module.exports = {
         'sourceType': 'module'
     },
     'plugins': [
-        'flowtype',
-
-        // ESLint's rule no-duplicate-imports does not understand Flow's import
-        // type. Fortunately, eslint-plugin-import understands Flow's import
-        // type.
         'import'
     ],
     'rules': {
