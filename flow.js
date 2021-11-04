@@ -9,5 +9,8 @@ module.exports = {
         // type. Fortunately, eslint-plugin-import understands Flow's import
         // type.
         'import'
-    ]
+    ],
+    'rules': {
+        'no-dupe-class-members': 0
+    }
 };
