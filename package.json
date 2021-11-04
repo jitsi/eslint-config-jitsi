@@ -14,7 +14,8 @@
   "author": "",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "@babel/eslint-parser": ">= 7",
+    "eslint": ">= 8"
   },
   "dependencies": {},
   "devDependencies": {},
