@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-jitsi",
+  "name": "@jitsi/eslint-config",
   "version": "3.0.0",
   "description": "eslint rules for jitsi projects",
   "repository": {

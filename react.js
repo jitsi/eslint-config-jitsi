@@ -1,6 +1,6 @@
 module.exports = {
     'extends': [
-        'eslint-config-jitsi/jsx'
+        '@jitsi/eslint-config/jsx'
     ],
     'rules': {
         // React plugin rules group

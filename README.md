@@ -5,7 +5,7 @@ A shareable eslint config for Jitsi's projects.
 ## Install
 
 ```bash
-npm install --save-dev jitsi/eslint-config-jitsi
+npm install --save-dev @jitsi/eslint-config
 ```
 
 ### Installing peerDependencies
@@ -20,7 +20,7 @@ Add the following to your `.eslintrc.js`.
 
 ```
 {
-  'extends': 'eslint-config-jitsi'
+  'extends': '@jitsi/eslint-config'
 }
 ```
 
@@ -35,8 +35,8 @@ npm install --save-dev eslint-plugin-jsdoc
 ```
 {
   'extends': [
-    'eslint-config-jitsi',
-    'eslint-config-jitsi/jsdoc'
+    '@jitsi/eslint-config',
+    '@jitsi/eslint-config/jsdoc'
   ]
 }
 ```
@@ -50,8 +50,8 @@ npm install --save-dev eslint-plugin-react
 ```
 {
   'extends': [
-    'eslint-config-jitsi',
-    'eslint-config-jitsi/react'
+    '@jitsi/eslint-config',
+    '@jitsi/eslint-config/react'
   ]
 }
 ```
@@ -65,8 +65,8 @@ If you are using `flow`:
 ```
 {
   'extends': [
-    'eslint-config-jitsi',
-    'eslint-config-jitsi/flow'
+    '@jitsi/eslint-config',
+    '@jitsi/eslint-config/flow'
   ]
 }
 ```
