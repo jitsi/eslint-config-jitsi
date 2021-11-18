@@ -70,3 +70,18 @@ If you are using `flow`:
   ]
 }
 ```
+
+If you are using `typescript`:
+
+```bash
+ npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+```
+{
+  'extends': [
+    '@jitsi/eslint-config',
+    '@jitsi/eslint-config/typescript'
+  ]
+}
+```
