@@ -307,7 +307,9 @@ module.exports = {
         'prefer-template': 2,
         'require-yield': 2,
         'rest-spread-spacing': 2,
-        'sort-imports': 0,
+        'sort-imports': [ 'error', {
+            'ignoreDeclarationSort': true
+        } ],
         'template-curly-spacing': 2,
         'yield-star-spacing': 2,
         'import/no-duplicates': 2,
