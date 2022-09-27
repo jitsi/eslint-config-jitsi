@@ -50,6 +50,7 @@ module.exports = {
         'no-invalid-regexp': 2,
         'no-irregular-whitespace': 2,
         'no-negated-in-lhs': 2,
+        'no-nested-ternary': 2,
         'no-obj-calls': 2,
         'no-prototype-builtins': 0,
         'no-regex-spaces': 2,
