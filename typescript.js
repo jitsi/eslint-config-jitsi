@@ -51,7 +51,7 @@ module.exports = {
             }
         ],
         'no-unused-vars': 0,
-        '@typescript-eslint/no-unused-vars': 2,
+        '@typescript-eslint/no-unused-vars': [ 'error', { 'argsIgnorePattern': '^_' } ],
         'no-use-before-define': 0,
         '@typescript-eslint/no-use-before-define': ['error', { 'functions': false }],
         'no-useless-constructor': 0,
