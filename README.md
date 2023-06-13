@@ -56,21 +56,6 @@ npm install --save-dev eslint-plugin-react
 }
 ```
 
-If you are using `flow`:
-
-```bash
- npm install --save-dev eslint-plugin-flowtype 
-```
-
-```
-{
-  'extends': [
-    '@jitsi/eslint-config',
-    '@jitsi/eslint-config/flow'
-  ]
-}
-```
-
 If you are using `typescript`:
 
 ```bash
