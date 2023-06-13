@@ -49,7 +49,12 @@ module.exports = {
         // XXX Because the following plugin is not very smart about words which
         // legitimately begin with uppercase characters mid-sentence, set it to
         // warn only.
-        'jsdoc/require-description-complete-sentence': 1,
+        'jsdoc/require-description-complete-sentence': [
+            'warn',
+            {
+                abbreviations: ['i.e.', 'e.g.']
+            }
+        ],
         'jsdoc/require-hyphen-before-param-description': 2,
 
         // The following 5 rules are covered by valid-jsdoc, so disable them.
