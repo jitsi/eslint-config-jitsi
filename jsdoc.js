@@ -38,7 +38,13 @@ module.exports = {
         'jsdoc/check-param-names': 0,
         'jsdoc/check-tag-names': 2,
         'jsdoc/check-types': 0,
-        'jsdoc/newline-after-description': 2,
+        'jsdoc/tag-lines': [
+            'error',
+            'any',
+            {
+              startLines: 1,
+            },
+        ],
 
         // XXX Because the following plugin is not very smart about words which
         // legitimately begin with uppercase characters mid-sentence, set it to
