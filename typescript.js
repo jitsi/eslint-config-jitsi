@@ -10,8 +10,7 @@ module.exports = {
     ],
     extends: [
         'plugin:@typescript-eslint/eslint-recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@stylistic/recommended-extends'
+        'plugin:@typescript-eslint/recommended'
     ],
     rules: {
         // Default ESlint rules to TypeScript-ESlint
