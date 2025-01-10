@@ -115,6 +115,24 @@ module.exports = {
             }
         }],
         'typescript-sort-keys/interface': 2,
-        'typescript-sort-keys/string-enum': 2
+        'typescript-sort-keys/string-enum': 2,
+        '@stylistic/indent': [
+            'error',
+            4,
+            {
+                'CallExpression': {
+                    arguments: 'off'
+                },
+                'FunctionDeclaration': {
+                    body: 1,
+                    parameters: 2
+                },
+                'FunctionExpression': {
+                    parameters: 2
+                },
+                'MemberExpression': 'off',
+                'SwitchCase': 0
+            }
+        ]
     }
 }
