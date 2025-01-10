@@ -18,7 +18,7 @@ module.exports = {
         '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
         '@stylistic/arrow-parens': [ 'error', 'as-needed' ],
         'brace-style': 0,
-        '@stylistic/brace-style': 2,
+        '@stylistic/brace-style': [ 'error', '1tbs' ],
         'comma-dangle': 0,
         '@stylistic/comma-dangle': [ 'error', 'only-multiline' ],
         'dot-notation': 0,
@@ -54,7 +54,14 @@ module.exports = {
             }
         ],
         'no-unused-vars': 0,
-        '@typescript-eslint/no-unused-vars': [ 'error', { 'argsIgnorePattern': '^_' } ],
+        '@typescript-eslint/no-unused-vars': [ 'error', {
+            'argsIgnorePattern': '^_',
+            'varsIgnorePattern': '^_',
+            'caughtErrors': 'none',
+            'caughtErrorsIgnorePattern': '^_',
+            'destructuredArrayIgnorePattern': '^_',
+            'ignoreRestSiblings': true
+        } ],
         'no-use-before-define': 0,
         '@typescript-eslint/no-use-before-define': ['error', { 'functions': false }],
         'no-useless-constructor': 0,
@@ -106,6 +113,18 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': 1,
         '@typescript-eslint/prefer-enum-initializers': 1,
         '@typescript-eslint/prefer-optional-chain': 1,
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                'selector': 'interface',
+                'format': [ 'PascalCase' ],
+                'custom': {
+                    'regex': '^I[A-Z]',
+                    'match': true
+                }
+            }
+        ],
+        '@typescript-eslint/no-empty-object-type': 0,
         '@stylistic/type-annotation-spacing': ['error', {
             before: true,
             after: true,
@@ -142,7 +161,8 @@ module.exports = {
             'after-props'
         ],
         '@stylistic/jsx-quotes': [ 'error', 'prefer-single' ],
-        '@stylistic/jsx-indent-props': 2,
+        'react/jsx-indent-props': 0,
+        '@stylistic/jsx-indent-props': 0,
         '@stylistic/jsx-curly-spacing': [
             'error',
             'always',
@@ -153,9 +173,17 @@ module.exports = {
             }
         ],
         '@stylistic/quote-props': 0,
-        '@stylistic/indent-binary-ops': [ 'error', 4 ],
-        '@stylistic/no-multiple-empty-lines': 2,
+        '@stylistic/indent-binary-ops': 0, // TODO: revisit this rule
+        '@stylistic/no-multiple-empty-lines': [ 'error', { 'max': 2, 'maxEOF': 1, 'maxBOF': 1 } ],
         '@stylistic/padded-blocks': 0,
         '@stylistic/multiline-ternary': 0,
+        '@stylistic/jsx-wrap-multilines': 0,
+        '@stylistic/jsx-curly-brace-presence': 0,
+        '@stylistic/jsx-curly-newline': 0,
+        '@stylistic/jsx-function-call-newline': 0,
+        '@stylistic/jsx-one-expression-per-line': 0,
+        '@stylistic/jsx-tag-spacing': 0,
+        '@stylistic/jsx-closing-tag-location': 0,
+        '@stylistic/type-generic-spacing': 0,
     }
 }
