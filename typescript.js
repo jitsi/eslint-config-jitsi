@@ -142,6 +142,20 @@ module.exports = {
             'after-props'
         ],
         '@stylistic/jsx-quotes': [ 'error', 'prefer-single' ],
-        '@stylistic/jsx-indent-props': 2
+        '@stylistic/jsx-indent-props': 2,
+        '@stylistic/jsx-curly-spacing': [
+            'error',
+            'always',
+            {
+                'spacing': {
+                    'objectLiterals': 'never'
+                }
+            }
+        ],
+        '@stylistic/quote-props': 0,
+        '@stylistic/indent-binary-ops': [ 'error', 4 ],
+        '@stylistic/no-multiple-empty-lines': 2,
+        '@stylistic/padded-blocks': 0,
+        '@stylistic/multiline-ternary': 0,
     }
 }
