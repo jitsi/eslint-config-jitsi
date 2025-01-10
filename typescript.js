@@ -15,7 +15,7 @@ module.exports = {
     ],
     rules: {
         // Default ESlint rules to TypeScript-ESlint
-        '@stylistic/array-bracket-spacing': 'always',
+        '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
         'brace-style': 0,
         '@stylistic/brace-style': 2,
         'comma-dangle': 0,
