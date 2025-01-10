@@ -59,7 +59,7 @@ npm install --save-dev eslint-plugin-react
 If you are using `typescript`:
 
 ```bash
- npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+ npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser @stylistic/eslint-plugin
 ```
 
 ```

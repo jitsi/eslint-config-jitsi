@@ -15,13 +15,13 @@ module.exports = {
     rules: {
         // Default ESlint rules to TypeScript-ESlint
         'brace-style': 0,
-        '@typescript-eslint/brace-style': 2,
+        '@stylistic/brace-style': 2,
         'comma-dangle': 0,
-        '@typescript-eslint/comma-dangle': 2,
+        '@stylistic/comma-dangle': 2,
         'dot-notation': 0,
         '@typescript-eslint/dot-notation': 2,
         'keyword-spacing': 0,
-        '@typescript-eslint/keyword-spacing': 2,
+        '@stylistic/keyword-spacing': 2,
         'no-array-constructor': 0,
         '@typescript-eslint/no-array-constructor': 2,
         'no-dupe-class-members': 0,
@@ -29,7 +29,7 @@ module.exports = {
         'no-empty-function': 0,
         '@typescript-eslint/no-empty-function': 2,
         'no-extra-semi': 0,
-        '@typescript-eslint/no-extra-semi': 2,
+        '@stylistic/no-extra-semi': 2,
         'no-implied-eval': 0,
         '@typescript-eslint/no-implied-eval': 2,
         'no-invalid-this': 0,
@@ -41,8 +41,8 @@ module.exports = {
         'no-shadow': 0,
         '@typescript-eslint/no-shadow': 2,
         'no-throw-literal': 0,
-        '@typescript-eslint/no-throw-literal': 2,
-        'no-unused-expressions': 'off',
+        '@typescript-eslint/only-throw-error': 2,
+        'no-unused-expressions': 0,
         '@typescript-eslint/no-unused-expressions': [
             'error',
             {
@@ -57,35 +57,35 @@ module.exports = {
         'no-useless-constructor': 0,
         '@typescript-eslint/no-useless-constructor': 2,
         'object-curly-spacing': 0,
-        '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+        '@stylistic/object-curly-spacing': ['error', 'always'],
         'padding-line-between-statements': 0,
-        '@typescript-eslint/padding-line-between-statements': [
+        '@stylistic/padding-line-between-statements': [
             'error',
             { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
             { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
             { blankLine: 'always', prev: '*', next: 'return' }
         ],
         'quotes': 0,
-        '@typescript-eslint/quotes': ['error', 'single'],
+        '@stylistic/quotes': ['error', 'single'],
         'semi': 0,
-        '@typescript-eslint/semi': ['error', 'always'],
+        '@stylistic/semi': ['error', 'always'],
         'space-before-blocks': 0,
-        '@typescript-eslint/space-before-blocks': 2,
+        '@stylistic/space-before-blocks': 2,
         'space-before-function-paren': 0,
-        '@typescript-eslint/space-before-function-paren': ['error', {
+        '@stylistic/space-before-function-paren': ['error', {
             'anonymous': 'never',
             'named': 'never',
             'asyncArrow': 'always'
         }],
         'space-infix-ops': 0,
-        '@typescript-eslint/space-infix-ops': 2,
+        '@stylistic/space-infix-ops': 2,
         'no-undef': 0,
         'no-prototype-builtins': 0,
 
         // Typescript-ESlint Rules
         '@typescript-eslint/ban-ts-comment': 0,
         '@typescript-eslint/ban-types': 0,
-        '@typescript-eslint/member-delimiter-style': ['error', {
+        '@stylistic/member-delimiter-style': ['error', {
             multiline: {
                 delimiter: 'semi',
                 requireLast: true
@@ -103,7 +103,7 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': 1,
         '@typescript-eslint/prefer-enum-initializers': 1,
         '@typescript-eslint/prefer-optional-chain': 1,
-        '@typescript-eslint/type-annotation-spacing': ['error', {
+        '@stylistic/type-annotation-spacing': ['error', {
             before: true,
             after: true,
             overrides: {
