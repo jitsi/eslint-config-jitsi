@@ -16,6 +16,7 @@ module.exports = {
     rules: {
         // Default ESlint rules to TypeScript-ESlint
         '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
+        '@stylistic/arrow-parens': [ 'error', 'as-needed' ],
         'brace-style': 0,
         '@stylistic/brace-style': 2,
         'comma-dangle': 0,
@@ -134,6 +135,13 @@ module.exports = {
                 'MemberExpression': 'off',
                 'SwitchCase': 0
             }
-        ]
+        ],
+        '@stylistic/jsx-equals-spacing': [ 'error', 'always' ],
+        '@stylistic/jsx-closing-bracket-location': [
+            'error',
+            'after-props'
+        ],
+        '@stylistic/jsx-quotes': [ 'error', 'prefer-single' ],
+        '@stylistic/jsx-indent-props': 2
     }
 }
