@@ -60,6 +60,8 @@ module.exports = {
         'no-unsafe-finally': 2,
         'use-isnan': 2,
         'valid-typeof': 2,
+        'no-unused-private-class-members': ['error'],
+        'no-useless-backreference': ['error'],
 
         // Best Practices group
         'accessor-pairs': 0,
@@ -125,6 +127,7 @@ module.exports = {
         'no-useless-call': 2,
         'no-useless-concat': 2,
         'no-useless-escape': 2,
+        'no-useless-return': ['error'],
         'no-void': 2,
         'no-warning-comments': 0,
         'no-with': 2,
@@ -273,6 +276,7 @@ module.exports = {
         'spaced-comment': 2,
         'unicode-bom': 0,
         'wrap-regex': 0,
+        'prefer-object-spread': ['error'],
 
         // ES6 group rules
         'arrow-body-style': [
@@ -320,6 +324,8 @@ module.exports = {
             },
             'groups': [ [ 'builtin', 'external' ], 'parent', 'sibling', 'index' ],
             'newlines-between': 'always'
-        } ]
-    }
+        } ],
+        'require-await': ['error'],
+        'no-duplicate-imports': ['error'],
+        }
 };
