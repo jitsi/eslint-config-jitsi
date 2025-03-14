@@ -223,7 +223,7 @@ module.exports = {
         'newline-per-chained-call': 2,
         'no-array-constructor': 2,
         'no-bitwise': 2,
-        'no-continue': 2,
+        'no-continue': 0,
         'no-inline-comments': 0,
         'no-lonely-if': 2,
         'no-mixed-operators': 2,
