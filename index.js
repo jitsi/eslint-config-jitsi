@@ -25,5 +25,6 @@ module.exports = {
                 '@jitsi/eslint-config/typescript'
             ],
         }
-    ]
+    ],
+    ignorePatterns: [ '*.d.ts' ]
 };
