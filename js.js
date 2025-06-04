@@ -315,5 +315,5 @@ module.exports = {
         } ],
         'require-await': ['error'],
         'no-duplicate-imports': ['error'],
-        }
+    }
 };
