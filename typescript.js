@@ -5,6 +5,7 @@ module.exports = {
     },
     plugins: [
         '@typescript-eslint',
+        'import',
         'typescript-sort-keys'
     ],
     extends: [
@@ -184,5 +185,19 @@ module.exports = {
         '@stylistic/jsx-tag-spacing': 0,
         '@stylistic/jsx-closing-tag-location': 0,
         '@stylistic/type-generic-spacing': 0,
+
+        // Import sorting rules
+        'sort-imports': [ 'error', {
+            'ignoreDeclarationSort': true
+        } ],
+        'import/no-duplicates': 2,
+        'import/order': [ 'error', {
+            'alphabetize': {
+                'order': 'asc'
+            },
+            'groups': [ [ 'builtin', 'external' ], 'parent', 'sibling', 'index' ],
+            'newlines-between': 'always'
+        } ],
+        'no-duplicate-imports': ['error'],
     }
 }
